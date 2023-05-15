@@ -38,7 +38,7 @@ public class Gmail {
             message.setFrom(new InternetAddress(user, "WITHPILL"));
 
             //수신자메일주소
-            message.addRecipient(Message.RecipientType.TO, new InternetAddress("openkufo@gmail.com")); 
+            message.addRecipient(Message.RecipientType.TO, new InternetAddress("")); 
 
             // Subject
             message.setSubject("메일이왔어요 확인하세요"); //메일 제목을 입력
